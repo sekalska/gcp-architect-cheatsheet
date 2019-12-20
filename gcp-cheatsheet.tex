@@ -51,7 +51,7 @@
 \tikzstyle{mybox} = [draw=black, fill=white, very thick, rectangle, rounded corners, inner sep=10pt, inner ysep=10pt]
 \tikzstyle{fancytitle} =[fill=black, text=white, font=\bfseries]
 
-%\faTelegram 
+%\faTelegram  
 %------------ What is GCP Professional Cloud Architect Certificate  ---------------
 \begin{tikzpicture}
 \node [mybox] (box){%
@@ -59,11 +59,10 @@
     What is GCP Professional Cloud Architect Certificate\\
 	 \\
         
-	Key Points
     \setlist{nolistsep}	
     \begin{itemize}
     	\item Design and plan a cloud solution architecture
-		\item Manage and provision the cloud solutio infrastructure
+		\item Manage and provision the cloud solution infrastructure
         \item Design for secure and compliance
         \item Analyze and optimize technical and business processes
         \item Manage implementations of cloud architecture
@@ -82,19 +81,15 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
-    fdgksdhsj \\
-    {\color{blue} \textbf{Private Cloud Networks}}\\
-    	To be edited \\
-   	{\color{blue} \textbf{Compute Engine}}\\
-  		To be edited
-   \begin{itemize}
-   	\item \textbf{Map}: operation to be performed in parallel on small portions of the dataset. the output is a key-value pair $<K,V>$
-    \item \textbf{Reduce}: operation to combine the results of Map\\
-   \end{itemize}
-   
-%     A typical job process: the user defines defines the map and reduce tasks using MapReduce API, the job is triggered on the Hadoop cluster, YARN figures out where and how to run the job and stores the result in HDFS.
-
-    \end{minipage};
+    Google Cloud VPC provides networking functionality to Compute Engine virtual machine instances, Google Kubernetes Engine containers, and the App Engine flexible environment. \\
+    {\color{blue} \textbf{Private Cloud Networks:}}\\
+    	A Private Cloud Network is a virtual version of a physical network, such as a data center network. Projects can contain multiple VPC networks. \\
+        VPC networks, including their associated routes and firewall rules, are global resources. They are not associated with any particular region or zone.\\
+        Subnets are regional resources. Each subnet defines a range of IP addresses. \\
+    {\color{blue} \textbf{Private Cloud Networks:}}\\
+  		Virtual Machines (VM) running in Google's global data center. Ideal for when you need complete control over your infrastructure and direct access to high-performance hardward or need OS-level changes. \\
+    \textbf{Use Cases}: any workload requiring a specific OS or OS configuration, currently deployed and on-premises software that you want to run in the cloud.\\   
+    \end{minipage}
 
 };
 \node[fancytitle, right=10pt] at (box.north west) {Virtual Machines};
@@ -108,13 +103,19 @@
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
-    Overview
-    {\color{blue} \textbf{Cloud Storage}}: To be edited \\
-    {\color{blue} \textbf{Cloud BigTable}}: To be edited \\
-    {\color{blue} \textbf{Cloud SQL}}: To be edited \\
-    {\color{blue} \textbf{Cloud Spanner}}: To be edited \\
-    {\color{blue} \textbf{Cloud DataStore}}: To be edited \\
-    {\color{blue} \textbf{Cloud Memorystore}}: To be edited \\
+    Overview\\
+    {\color{blue} \textbf{Cloud Storage:}}\\ 
+        To be edited \\
+    {\color{blue} \textbf{Cloud BigTable:}}\\
+        To be edited \\
+    {\color{blue} \textbf{Cloud SQL:}}\\ 
+        To be edited \\
+    {\color{blue} \textbf{Cloud Spanner:}}\\
+        To be edited \\
+    {\color{blue} \textbf{Cloud DataStore:}}\\ 
+        To be edited \\
+    {\color{blue} \textbf{Cloud Memorystore:}}\\ 
+        To be edited \\
     \end{minipage};
 };
 \node[fancytitle, right=10pt] at (box.north west) {Storage};
@@ -126,10 +127,13 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
-    
-    {\color{blue} \textbf{Containers}}: Choosing an option to run containers \\
-    {\color{blue} \textbf{Kubernetes}}: Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
-    {\color{blue} \textbf{Kubernetes Compute Engine}}: Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+    Overview \\
+    {\color{blue} \textbf{Containers:}}\\ 
+        Choosing an option to run containers \\
+    {\color{blue} \textbf{Kubernetes:}}\\ 
+        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+    {\color{blue} \textbf{Kubernetes Compute Engine:}}\\ 
+        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
     
 
     \end{minipage}
@@ -144,10 +148,13 @@
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
     GCP's monitoring, logging, and diagnostics solution. Provides insights to health, performance, and availability of applications.\\
-    Main Functions
-    {\color{blue} \textbf{App Engine}}: Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
-    {\color{blue} \textbf{Cloud Endpoints}}: Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
-    {\color{blue} \textbf{Apigee Sense}}: Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+    Main Functions \\
+    {\color{blue} \textbf{App Engine:}}\\ 
+        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+    {\color{blue} \textbf{Cloud Endpoints:}} \\
+        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+    {\color{blue} \textbf{Apigee Sense:}}\\ 
+        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
     
    
     \end{minipage}
@@ -161,9 +168,9 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
-    
-    {\color{blue} \textbf{Cloud Source Repositories}}\\
-    {\color{blue} \textbf{Cloud Functions}}\\
+    Overview \\
+    {\color{blue} \textbf{Cloud Source Repositories:}}\\
+    {\color{blue} \textbf{Cloud Functions:}}\\
     
     \end{minipage}
 };
@@ -175,12 +182,12 @@
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
-    
-    {\color{blue} \textbf{Cloud Dataflow}}\\
-    {\color{blue} \textbf{BigQuery}}\\
-    {\color{blue} \textbf{Cloud Pub/Sub}}\\
-    {\color{blue} \textbf{Cloud Datalab}}\\
-    {\color{blue} \textbf{GCP Machine Learning Services}}\\
+    Overview\\
+    {\color{blue} \textbf{Cloud Dataflow:}}\\
+    {\color{blue} \textbf{BigQuery:}}\\
+    {\color{blue} \textbf{Cloud Pub/Sub:}}\\
+    {\color{blue} \textbf{Cloud Datalab:}}\\
+    {\color{blue} \textbf{GCP Machine Learning Services:}}\\
     
     \setlist{nolistsep}	
     \end{minipage}
@@ -195,15 +202,15 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
-    dfsdfdsdsg \\
-    {\color{blue} \textbf{Organization}} Fully-managed block storage (SSDs) that is suitable for VMs/containers. Good for snapshots of data backups/sharing read-only data across VMs.\\
-    
-    {\color{blue} \textbf{Roles}} Infinitely scalable, fully-managed and highly reliable object/blob storage. Good for data blobs: images, pictures, videos. Cannot query by content.\\
-    
-    To use Cloud Storage, you create buckets to store data and the location can be specified. Bucket names are globally unique. There a 4 storage classes:
-    
-    {\color{blue} \textbf{Members}} Some text to be introduced \\
-	{\color{blue} \textbf{Service Accounts}} Some text to be introduced \\
+    Overview \\
+    {\color{blue} \textbf{Organization:}}\\
+        To be edited\\
+    {\color{blue} \textbf{Roles:}}\\ 
+        To be edited\\
+    {\color{blue} \textbf{Members:}} \\
+        To be edited\\
+	{\color{blue} \textbf{Service Accounts:}} \\
+        To be edited\\
 
     \end{minipage}
 };
@@ -216,14 +223,18 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
-
-    {\color{blue} \textbf{Stackdriver}} Some text to be introduced \\
-    {\color{blue} \textbf{Stackdriver Logging}} Some text to be introduced \\
-    {\color{blue} \textbf{Stackdriver Error Reporting}} Some text to be introduced \\
-    {\color{blue} \textbf{Stackdriver Tracing}} Some text to be introduced \\
-    {\color{blue} \textbf{Stackdriver Debugger}} Some text to be introduced \\
-    
-    
+    Overview\\
+    {\color{blue} \textbf{Stackdriver:}}\\ 
+        Some text to be introduced \\
+    {\color{blue} \textbf{Stackdriver Logging:}} \\
+        Some text to be introduced \\
+    {\color{blue} \textbf{Stackdriver Error Reporting:}} \\
+        Some text to be introduced \\
+    {\color{blue} \textbf{Stackdriver Tracing:}}\\
+        Some text to be introduced \\
+    {\color{blue} \textbf{Stackdriver Debugger:}} \\
+        Some text to be introduced \\
+      
     
     \end{minipage}
 };
@@ -235,13 +246,14 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
-    
-    Columnar database ideal applications that need high throughput, low latencies, and scalability (IoT, user analytics, time-series data, graph data) for non-structured key/value data (each value is $<$ 10 MB). A single value in each row is indexed and this value is known as the row key. Does not support SQL queries. Zonal service. Not good for data less than 1TB of data or items greater than 10MB. Ideal at handling large amounts of data (TB/PB) for long periods of time.\\
-
-    {\color{blue} \textbf{Cloud VPN}} Some text to be introduced \\
-    {\color{blue} \textbf{Cloud Interconnect}} Some text to be introduced \\
-    {\color{blue} \textbf{Cloud Peering}} Some text to be introduced \\
-    {\color{blue} \textbf{Shared VPC and VPC Peering}} Some text to be introduced \\
+    Overview\\
+    {\color{blue} \textbf{Cloud VPN:}}\\ Some text to be introduced \\
+    {\color{blue} \textbf{Cloud Interconnect:}} \\
+        Some text to be introduced \\
+    {\color{blue} \textbf{Cloud Peering:}} \\
+        Some text to be introduced \\
+    {\color{blue} \textbf{Shared VPC and VPC Peering:}}\\ 
+        Some text to be introduced \\
     
     \end{minipage}
 };
@@ -255,15 +267,20 @@
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
     Choosing a Load Balancer \\
-    {\color{blue} \textbf{HTTP(S) Load Balancing}} Some text to be introduced \\
-    {\color{blue} \textbf{SSL Proxy Load Balancing}} Some text to be introduced \\
-    {\color{blue} \textbf{TCP Proxy Load Balancing}} Some text to be introduced \\
-    {\color{blue} \textbf{Network Load Balancing}} Some text to be introduced \\
-    {\color{blue} \textbf{Internal Load Balancing}} Some text to be introduced \\
+    {\color{blue} \textbf{HTTP(S) Load Balancing:}} \\
+        Some text to be introduced \\
+    {\color{blue} \textbf{SSL Proxy Load Balancing:}} \\
+        Some text to be introduced \\
+    {\color{blue} \textbf{TCP Proxy Load Balancing:}}\\ 
+        Some text to be introduced \\
+    {\color{blue} \textbf{Network Load Balancing:}}\\ 
+        Some text to be introduced \\
+    {\color{blue} \textbf{Internal Load Balancing:}} \\
+        Some text to be introduced \\
     	  Intro
 	    \begin{itemize}
-	    	\item \textbf{TCP/UDP Load Balancing}: Tables partitioned based on the data's ingestion (load) date or arrival date. Each partitioned table will have  pseudocolumn \_PARTITIONTIME, or time data was loaded into table. Pseudocolumns are reserved for the table and cannot be used by the user. 
-			\item \textbf{Internal HTTP(s) Load Balancing}: Tables that are partitioned based on a TIMESTAMP or DATE column.\\
+	    	\item \textbf{TCP/UDP Load Balancing:} Tables partitioned based on the data's ingestion (load) date or arrival date. Each partitioned table will have  pseudocolumn \_PARTITIONTIME, or time data was loaded into table. Pseudocolumns are reserved for the table and cannot be used by the user. 
+			\item \textbf{Internal HTTP(s) Load Balancing:} Tables that are partitioned based on a TIMESTAMP or DATE column.\\
 		\end{itemize}
     
 
@@ -279,9 +296,10 @@
 \begin{tikzpicture}
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
-    	{\color{blue} \textbf{Deployment Manager}} Some text to be introduced \\
-    	\textbf{Explore best practices}\\
-        {\color{blue} \textbf{GCP Marketplace}} Some text to be introduced \\
+    	{\color{blue} \textbf{Deployment Manager:}}\\ 
+            Some text to be introduced \\
+    	\textbf{Explore best practices:}\\
+        {\color{blue} \textbf{GCP Marketplace:}} Some text to be introduced \\
     
     \end{minipage}
 };
@@ -294,10 +312,14 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
-    	{\color{blue} \textbf{BigQuery}} Some text to be introduced \\
-    	{\color{blue} \textbf{Cloud Dataflow}} Some text to be introduced \\
-    	{\color{blue} \textbf{Cloud Dataprep}} Some text to be introduced \\
-    	{\color{blue} \textbf{Cloud Dataproc}} Some text to be introduced \\
+    	{\color{blue} \textbf{BigQuery:}}\\ 
+            Some text to be introduced \\
+    	{\color{blue} \textbf{Cloud Dataflow:}} \\
+            Some text to be introduced \\
+    	{\color{blue} \textbf{Cloud Dataprep:}}\\ 
+            Some text to be introduced \\
+    	{\color{blue} \textbf{Cloud Dataproc:}} \\
+            Some text to be introduced \\
     	
     
     \end{minipage}
@@ -311,17 +333,14 @@
 \node [mybox] (box){%
     \begin{minipage}{0.3\textwidth}
     \setlist{nolistsep}	
-   
-    Managed infrastructure of GCP with the power and flexibility of TensorFlow. Can use it to train ML models at scale and host trained models to make predictions about new data in the cloud. Supported frameworks include Tensorflow, scikit-learn and XGBoost.\\
-    
-    {\color{blue} \textbf{Mountkirk Games}}\\
-    Evaluate Problem: What is the problem and is ML the best approach? How will you measure model's success?\\ 
-    {\color{blue} \textbf{Dress4Win}}\\
-    {\color{blue} \textbf{TerramEarth}}\\
+    Overview
+    {\color{blue} \textbf{Mountkirk Games:}}\\
+    {\color{blue} \textbf{Dress4Win:}}\\
+    {\color{blue} \textbf{TerramEarth:}}\\
     
     \end{minipage}
 };
-\node[fancytitle, right=10pt] at (box.north west) {ML Engine};
+\node[fancytitle, right=10pt] at (box.north west) {Case Studies};
 \end{tikzpicture}
 
 
