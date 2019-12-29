@@ -86,9 +86,19 @@
     	A Private Cloud Network is a virtual version of a physical network, such as a data center network. Projects can contain multiple VPC networks. \\
         VPC networks, including their associated routes and firewall rules, are global resources. They are not associated with any particular region or zone.\\
         Subnets are regional resources. Each subnet defines a range of IP addresses. \\
-    {\color{blue} \textbf{Private Cloud Networks:}}\\
-  		Virtual Machines (VM) running in Google's global data center. Ideal for when you need complete control over your infrastructure and direct access to high-performance hardward or need OS-level changes. \\
-    \textbf{Use Cases}: any workload requiring a specific OS or OS configuration, currently deployed and on-premises software that you want to run in the cloud.\\   
+        Virtual Machines (VM) running in Google's global data center. Ideal for when you need complete control over your infrastructure and direct access to high-performance hardward or need OS-level changes. \\
+        Google Cloud VPC networks are global; subnets are regional (coursera)\\
+        You control the topology of your VPC network:
+        \begin{itemize}
+            \item Use its route table to forward traffic within the network, even across subnets.
+            \item Use its firewall to control what network traffic is allowed.
+            \item You can use VPC Peering to interconnect different VPC across GCP.
+            \item 
+        \end{itemize}    
+    {\color{blue} \textbf{Compute Engine:}}\\
+        It offers managed virtual machines. Pick memory and CPU: use predefined types, or make a custom VM; (coursera) \\
+        You can choose 2 of persistant storage: SD or standard. (coursera) \\
+        You can choose preemtible instances: high throughput to storage at no extra cost; no longer than 24 hours \\
     \end{minipage}
 
 };
@@ -105,7 +115,22 @@
     \begin{minipage}{0.3\textwidth}
     Overview\\
     {\color{blue} \textbf{Cloud Storage:}}\\ 
-        To be edited \\
+        It is a binary large-object storage (coursera) \\
+        Always encrypt the data on the server side (coursera) \\
+        The files are organized into buckets: the buckets have globally unique name (coursera) \\
+        Choose among Cloud Storage classes: \\
+        \begin{itemize}
+            \item \textbf{Multi-regional}: Most frequenlty accessed\\
+            \item \textbf{Regional}: Accessed frequently within a region\\
+            \item \textbf{Nearline}: Accessed less than once a month\\
+            \item \textbf{Coldline}: Accessed less than once a year\\
+        \end{itemize}    
+        There are several ways to bring data to Cloud Storage:
+        \begin{itemize}
+            \item \textbf{Online Transfer}:
+            \item \textbf{Storage Transfer Service}:
+            \item \textbf{Transfer Appliance}:
+        \end{itemize}    
     {\color{blue} \textbf{Cloud BigTable:}}\\
         To be edited \\
     {\color{blue} \textbf{Cloud SQL:}}\\ 
