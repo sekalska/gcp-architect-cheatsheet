@@ -127,20 +127,19 @@
         \end{itemize}    
         There are several ways to bring data to Cloud Storage:
         \begin{itemize}
-            \item \textbf{Online Transfer}:
-            \item \textbf{Storage Transfer Service}:
-            \item \textbf{Transfer Appliance}:
+            \item \textbf{Storage Transfer Service}: move data from other cloud providers or from an on-premise storage\\
+            \item \textbf{Transfer Appliance}: securely migrate large data (> 10TB) using hardware appliance\\
         \end{itemize}    
     {\color{blue} \textbf{Cloud BigTable:}}\\
-        To be edited \\
+        Fully managed, scalable NoSQL DB for analytical workload. ms latency. Perfect for event data (OLAP): fintech, digital media, IoT. \\
     {\color{blue} \textbf{Cloud SQL:}}\\ 
-        To be edited \\
+        Fully managed relational database services for MySQL, PostgreSQL and SQL Server. Perfect for transactional workload (OLTP) \\
     {\color{blue} \textbf{Cloud Spanner:}}\\
-        To be edited \\
+        Fully managed relational database with strong consistency and horizontal scalability. Perfect for multi-regional transactions. \\
     {\color{blue} \textbf{Cloud DataStore:}}\\ 
-        To be edited \\
+        Highly scalable NoSQL database. Provides ACID transactions and SQL-like queries. \\
     {\color{blue} \textbf{Cloud Memorystore:}}\\ 
-        To be edited \\
+        Scalable, secure and highly available in-memory service for Redis and Memcached. \\
     \end{minipage};
 };
 \node[fancytitle, right=10pt] at (box.north west) {Storage};
@@ -156,7 +155,7 @@
     {\color{blue} \textbf{Containers:}}\\ 
         Choosing an option to run containers \\
     {\color{blue} \textbf{Kubernetes:}}\\ 
-        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+        a service that manages containerized workloads and services. \\
     {\color{blue} \textbf{Kubernetes Compute Engine:}}\\ 
         Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
     
@@ -175,11 +174,11 @@
     GCP's monitoring, logging, and diagnostics solution. Provides insights to health, performance, and availability of applications.\\
     Main Functions \\
     {\color{blue} \textbf{App Engine:}}\\ 
-        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+        fully managed serverless platform for highly scalable applications.\\
     {\color{blue} \textbf{Cloud Endpoints:}} \\
-        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+        Develop, deploy, protect, and monitor your APIs with Cloud Endpoints. An NGINX-based proxy and distributed architecture give unparalleled performance and scalability.\\
     {\color{blue} \textbf{Apigee Sense:}}\\ 
-        Owner (full access to resources, manage roles), Editor (edit access to resources, change or add), Viewer (read access to resources)\\
+        Apigee Sense works with the Apigee Edge API management platform to protect APIs from attacks. It identifies and alerts administrators to suspicious API behaviors.\\
     
    
     \end{minipage}
@@ -195,7 +194,9 @@
     \setlist{nolistsep}	
     Overview \\
     {\color{blue} \textbf{Cloud Source Repositories:}}\\
+		Design, develop, and securely manage your code. Collaborate easily on a fully featured, scalable, and private Git repository. Extend your Git workflow by connecting to other Google Cloud tools, including Cloud Build, App Engine, Pub/Sub, and operations products such as Cloud Monitoring and Cloud Logging.\\
     {\color{blue} \textbf{Cloud Functions:}}\\
+    	allows you to trigger your code from Google Cloud, Firebase, and Google Assistant, or call it directly from any web, mobile, or backend application via HTTP. It supports Node.js, Python, Go, Java and .NET. You are only billed for your function's execution time, metered to the nearest 100 milliseconds. 
     
     \end{minipage}
 };
